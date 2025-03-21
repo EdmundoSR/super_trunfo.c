@@ -15,10 +15,10 @@ int main (){
     scanf("%s",&estado1);
 
     printf("Digite o código da carta: /n");
-    scanf("%5s",&codigo1);
+    scanf("%5c", codigo1);
 
     printf("Digite o nome da cidade: /n");
-    scanf("%s",&cidade1);
+    scanf("%s", cidade1);
 
     print("Digite a população: /n");
     scanf("%d",&populacao1);
