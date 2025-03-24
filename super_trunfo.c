@@ -3,8 +3,8 @@
 int main (){
 
     char estado1, estado2;
-    char codigo1[5];
-    char codigo2[20];
+    char codigo1[2];
+    char codigo2[2];
     char cidade1[20], cidade2[20];
     int populacao1, populacao2;
     float area1, area2;
@@ -18,9 +18,9 @@ int main (){
     scanf("%2c", codigo1);
 
     printf("Digite o nome da cidade: ");
-    scanf("%5c", cidade1);
+    scanf("%10c", cidade1);
 
-    printf("Digite a população: \n ");
+    printf("Digite a população: \n");
     scanf("%d",&populacao1);
 
     printf("Digite área em km²: \n ");
@@ -32,14 +32,14 @@ int main (){
     printf("Digite números de pontos turísticos: \n ");
     scanf("%d",&turisticos1);
 
-    printf("Digite a letra do estado: \n ");
+    printf("Digite a letra do estado: ");
     scanf("%s",&estado2);
 
-    printf("Digite o código da carta: \n ");
-    scanf("%s",&codigo2);
+    printf("Digite o código da carta: ");
+    scanf("%2c", codigo2);
 
     printf("Digite o nome da cidade: \n");
-    scanf("%s",&cidade2);
+    scanf("%10c", cidade2);
 
     printf("Digite a população: \n ");
     scanf("%d",&populacao2);
