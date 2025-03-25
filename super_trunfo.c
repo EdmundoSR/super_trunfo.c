@@ -18,19 +18,19 @@ int main (){
     scanf("%2c", codigo1);
 
     printf("Digite o nome da cidade: ");
-    scanf("%10c", cidade1);
+    scanf("%7c", cidade1);
 
-    printf("Digite a população: \n");
-    scanf("%d",&populacao1);
+    printf("Digite a população: ");
+    scanf("%d", &populacao1);
 
-    printf("Digite área em km²: \n ");
-    scanf("%f",&area1);
+    printf("Digite área em km²: ");
+    scanf("%f", &area1);
 
-    printf("Digite o PIB: \n ");
+    printf("Digite o PIB: ");
     scanf("%f",&pib1);
 
-    printf("Digite números de pontos turísticos: \n ");
-    scanf("%d",&turisticos1);
+    printf("Digite números de pontos turísticos: ");
+    scanf("%d", &turisticos1);
 
     printf("Digite a letra do estado: ");
     scanf("%s",&estado2);
