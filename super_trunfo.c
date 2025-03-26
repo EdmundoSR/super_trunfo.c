@@ -38,21 +38,21 @@ int main (){
     scanf(" %c",&estado2);
 
     printf("Digite o código da carta: ");
-    scanf("%2c", codigo2);
+    scanf("%2s", codigo2);
 
-    printf("Digite o nome da cidade: \n");
-    scanf(" %20c", &cidade2);
+    printf("Digite o nome da cidade: ");
+    scanf(" %20s", cidade2);
 
-    printf("Digite a população: \n ");
+    printf("Digite a população: ");
     scanf("%d", &populacao2);
 
-    printf("Digite área em km²: \n ");
+    printf("Digite área em km²: ");
     scanf("%f", &area2);
 
-    printf("Digite o PIB: \n ");
+    printf("Digite o PIB: ");
     scanf("%f", &pib2);
 
-    printf("Digite números de pontos turísticos: \n ");
+    printf("Digite números de pontos turísticos: ");
     scanf("%d", &turisticos2);
 
     //Mostra dados das cartas.
